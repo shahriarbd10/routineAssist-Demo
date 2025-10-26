@@ -1,77 +1,64 @@
-# 🏥 MediTrack — Smart Pharmacy & Inventory Management System (Frontend)
+# 🧭 DIU Routine Assist
 
-**Live Site:** [https://meditrack-v1.vercel.app](https://meditrack-v1.vercel.app)
+**Live Site:** [https://diu-routine-assist-bd.vercel.app/](https://diu-routine-assist-bd.vercel.app/)
 
 > ⚠️ **Disclaimer:**  
-> This repository contains only the **frontend (Next.js)** portion of the MediTrack system and is shared publicly **for portfolio and demonstration purposes only**.  
-> The **backend, API, and database configurations** are **kept private** for confidentiality and data security reasons.  
-> For full functionality, please visit the **live deployed site** linked above.
+> This repository contains the **frontend (Next.js)** portion of the project and is shared publicly **for academic and portfolio purposes only**.  
+> Certain internal logic, backend operations, and data-handling processes are **kept private** for confidentiality and data security.  
+> Please refer to the **live deployed site** above for a full demonstration of the working system.
 
 ---
 
 ## 🧠 Overview
 
-**MediTrack** is a **Role-Based Pharmacy Management Web Application** designed to streamline the workflow of pharmacies, staff, and administrators through a **modern, intuitive, and responsive interface**.  
-It provides a central platform for managing inventories, invoices, staff, and overall pharmacy operations.
+**DIU Routine Assist** is a web-based application designed to simplify and automate the **class routine management system** for both students and teachers of **Daffodil International University (DIU)**.  
 
-This repository holds the **frontend** built using **Next.js**, deployed on **Vercel**, and integrated with a secure backend API hosted on AWS EC2.
+It offers features such as batch-wise routine lookup, teacher scheduling, room availability search, and automated class booking. The system ensures efficient routine management and minimizes manual errors, allowing the department to operate more smoothly.
 
 ---
 
-## 🚀 Tech Stack
+## 🚀 Key Features
+
+### 🎓 For Students
+- View **batch-wise** and **day-wise** class routines  
+- Check updated class schedules instantly  
+- Export or download class routines easily  
+- Search for **teacher info**, **room details**, and **empty slots**
+
+### 👨‍🏫 For Teachers
+- View personal teaching schedule (daily or weekly)
+- Check and apply for **room bookings**
+- See available classrooms and replace/update routine sessions
+
+### 🏛️ For Admin / Department
+- Manage overall student and teacher routines
+- Approve or reject room booking requests
+- Update, replace, and view current routine files
+- Control access and permissions for different users
+
+---
+
+## 💡 Additional Functionalities
+- **Real-time routine updates**
+- **Batch & Section filtering**
+- **Empty room finder**
+- **Teacher info & availability lookup**
+- **Routine export (PDF/Excel)**
+- **Smooth UI with minimal loading time**
+
+---
+
+## 🧩 Tech Stack
 
 | Layer | Technology |
 |-------|-------------|
-| **Frontend Framework** | Next.js (React 18) |
+| **Frontend** | Next.js (React 18) |
 | **Styling** | Tailwind CSS + DaisyUI |
 | **State Management** | React Hooks / Context API |
-| **API Handling** | Fetch / Axios connected to private Express.js API |
-| **Authentication** | JWT + Role-Based Access |
 | **Deployment** | Vercel |
-| **Hosting (Backend)** | AWS EC2 (private) |
+| **Database & API** | *(Confidential — private repository)* |
 
 ---
 
-## 👥 User Roles & Dashboards
-
-MediTrack provides **four distinct dashboards**, each with custom access permissions and UI:
-
-| Role | Description |
-|------|--------------|
-| 🧑‍💼 **Admin** | Manages all pharmacies, oversees inventory, tracks invoices, and monitors platform usage. |
-| 🏪 **Pharmacy Owner** | Creates and manages their pharmacy’s inventory, staff, and billing system. |
-| 👨‍🔧 **Staff** | Handles sales, inventory updates, and daily pharmacy operations assigned by owners. |
-| 👥 **General User** | Views products from multiple pharmacies, searches items, and filters by price/category. |
-
----
-
-## 🧩 Key Features
-
-### 🔹 Role-Based Access Control
-Different dashboards and permissions based on user type — Admin, Pharmacy, Staff, or General User.
-
-### 🔹 Centralized Inventory Management
-Admins monitor all inventories, while pharmacies maintain independent stock control.
-
-### 🔹 Pharmacy-Specific CRUD Operations
-Pharmacy owners can add, edit, or remove medicines, categories, and suppliers independently.
-
-### 🔹 Invoice & Billing System
-Integrated billing section that automatically updates stock and tracks revenue.
-
-### 🔹 Advanced Product Search & Filter
-Users can explore available medicines across pharmacies by category, name, or price.
-
-### 🔹 Staff Management
-Pharmacy owners can add staff accounts, assign permissions, and monitor their activities.
-
-### 🔹 Secure Authentication
-JWT-based login system with session persistence and secure token storage.
-
-### 🔹 Responsive Design
-Fully responsive on mobile, tablet, and desktop devices for seamless accessibility.
-
----
-
-## 🖥️ Project Structure
+## 🗂️ Project Structure
 
